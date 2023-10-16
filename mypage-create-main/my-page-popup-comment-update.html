@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>팝업-menu 수정 </title>
+        <link rel="stylesheet" href="my-page-popup-comment-update.css">
+    </head>
+    <body>
+        <main>
+            <section class ="title-container">
+                댓글 수정
+            </section>
+            <!-- 추가도 동일 -->
+
+            <section class = "update-container">
+                <div class = "update-info-container">
+                    <table>
+
+                        <tr>
+                            <th> 게시물 명 </th>
+                            <td>
+                                <input type="text" readonly>
+                                <!-- readonly :: 글 수정 불가하게 하기  -->
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th> 댓글 내용</th>
+                            <td>
+                                <input type="text" autocapitalize="off">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th> 영화평점 </th>
+                            <!-- 별점으로 표시하면 좋을 거 같음. -->
+                            <td>
+                                <input type="number">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th> 작성 및 수정일 </th>
+                            <td>
+                                <input type="text" readonly>
+                            </td>
+                        </tr>
+
+                    </table>
+
+
+                </div>
+            </section>
+
+            <section class = "update-btn-container">
+                <div class ="btn">
+                    수정하기
+                </div>
+                <div class ="btn">
+                    취소하기
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

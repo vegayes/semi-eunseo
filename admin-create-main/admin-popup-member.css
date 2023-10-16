@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px
+
+}
+
+main{
+    background-color: black;
+    color: white;
+
+    /* min-height: 931px; */
+    height: 650px;
+    /* width: 1200px; */
+
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+}
+
+
+.popup-member-info-container{
+    flex-basis: 20%;
+    /* border: 5px solid green; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-member-info-title{
+    font-size: 30px;
+    font-weight: bold;
+
+    padding: 20px 0px;
+}
+
+
+/* member-댓글 list  */
+.popup-member-list-container{
+    flex-basis: 80%;
+    /* border: 2px solid yellow; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-member-write-list-container{
+    height: 450px;
+    width: 900px;
+
+    overflow: auto;
+
+    display: flex;
+}
+
+table{
+    flex-basis: 100%;
+    border-spacing: 0;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+
+    /* padding: 20px 0px; */
+}
+
+
+td{
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.popup-member-write-list-table  td{
+    padding: 20px;
+    border: 2px solid rgb(43, 26, 6);
+}
+
+
+.popup-member-write-list-table thead{
+    background-color:plum;
+    position: sticky;
+    top: 0;
+}
+
+.popup-member-write-list-table  tr{
+    display: flex;
+
+}
+
+
+
+.popup-member-comment-no{
+    flex-basis: 10%;
+
+    /* background-color: rebeccapurple; */
+    
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-member-comment-content{
+    flex-basis: 50%;
+
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+} 
+
+.popup-member-comment-date{
+    flex-basis: 29%;
+}
+
+.popup-member-comment-del-YN{
+    flex-basis: 14%;
+}
+
+
+
+
+
+
+.popup-member-write-list-container::-webkit-scrollbar{
+    width: 15px;
+}
+
+.popup-member-write-list-container::-webkit-scrollbar{
+    background: black;
+}
+
+.popup-member-write-list-container::-webkit-scrollbar-thumb{
+    height: 15%;
+    background-color: plum;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
